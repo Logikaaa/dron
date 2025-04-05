@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оператори БПЛА</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header, footer {
+            background-color: #283593;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        nav {
+            background-color: #3949ab;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 4px;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background-color: #5c6bc0;
+        }
+        main {
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #283593;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin: 10px auto;
+            display: block;
+        }
+        .drone {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .drone div {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        footer p, footer img {
+            margin-top: 10px;
+        }
+        ul {
+            list-style-type: square;
+            margin-left: 20px;
+        }
+        .image-row {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 15px;
+        }
+        .image-row img {
+            display: block;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://glavcom.ua/img/article/10089/51_main-v1720408655.jpg" alt="БПЛА">
+        <h1>Оператори БПЛА</h1>
+        <p>Швидке орієнтування</p>
+    </header>
+
+    <nav>
+        <a href="#index.html">Головна</a>
+        <a href="#history">Історія та значення</a>
+        <a href="#join">Як приєднатися</a>
+        <a href="#drones">ДРОНИ</a>
+        <a href="#kont">Контакти</a>
+        <a href="#videos.html">Відео скидів</a>
+    </nav>
+
+    <main>
+        <section id="holovna">
+            <h1>Про операторів БПЛА</h1>
+            <p>Оператор безпілотних літальних апаратів є одним із ключових фахівців у сучасних збройних силах. Технології безпілотників дозволяють виконувати бойові завдання з мінімальними ризиками для особового складу, забезпечуючи високу точність та ефективність.</p>
+            <img src="https://glavcom.ua/img/article/9781/5_main-v1704263613.jpg" alt="Дрони">
+        </section>
+
+        <section id="history">
+            <h2>Історія та значення</h2>
+            <p>Дрони використовувалися ще з часів Першої світової війни, але справжній прорив стався у 21 столітті. Сьогодні дрони є незамінними для розвідки та точних ударів.</p>
+        </section>
+
+        <section>
+            <h2>Мета роботи</h2>
+            <ul>
+                <li>Навчитися керувати літальними апаратами.</li>
+                <li>Висліджувати цілі.</li>
+                <li>Прикріплювати гранати або снаряди до апаратів.</li>
+            </ul>
+            <div class="image-row">
+                <img src="https://armyinform.com.ua/wp-content/uploads/2023/01/foto-6-1.jpg" height="150">
+                <img src="https://static.ukrinform.com/photos/2024_09/thumb_files/630_360_1725461142-393.jpg" height="150">
+                <img src="https://mvs.gov.ua/upload/1/9/0/6/5/4/420a1614-768x512.jpg.webp" height="150">
+            </div>
+        </section>
+
+        <section id="donas">
+            <h2>Як приєднатися</h2>
+            <ol>
+                <li>Заповнити анкету учасника.</li>
+                <li>Пройти співбесіду з керівником гуртка.</li>
+                <li>Взяти участь у вступному тренуванні.</li>
+            </ol>
+        </section>
+
+        <section id="drones">
+            <h2>Дрони, що підходять для гуртка</h2>
+            <div class="drone">
+                <div>
+                    <img src="https://rcdrone.top/cdn/shop/files/Sc83a3a917587490a8a255fd17eaf69a66_2024-06-22T12_12_13.263Z.png?v=1719058347">
+                    <p>Тесла модель 8</p>
+                    <p>Ціна: 1 000 грн</p>
+                </div>
+                <div>
+                    <img src="https://www.flydron.com.ua/image/cache/catalog/quadcopters/rce99max/e99maxdrone-800x800.png">
+                    <p>E99MAX</p>
+                    <p>Ціна: 2 500 грн</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="kont">
+        <h2>Контакти</h2>
+        <p>Телефон: +380 123 456 789 | Email: dzhura@example.com | Instagram: kostopil_creativity_center</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzUW7pvB9gS71H9es6ksmJQNqzbALV57Xtzg&s">
+        <p>Центр дитячої та юнацької творчості</p>
+    </footer>
+</body>
+</html>
